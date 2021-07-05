@@ -1,0 +1,49 @@
+button{
+    background-color: #4CAF50;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin:auto;
+    float:right;
+}
+
+#listNumber {
+    margin-top:5%;
+    background-color:#ddd;
+    border-radius: 5px;
+    width: 140px;
+    padding: 5px;
+    height: 100%;
+    margin:auto;
+    margin-bottom: 50px;
+    height:auto;
+}
+
+h1{
+    border-radius: 5px;
+    background-color:rgb(105, 84, 199);
+    text-align: center;
+    width: 150px;
+    margin:auto;
+    margin-top:50px;
+    margin-bottom:50px;
+
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    height:40px;
+    margin-top:20px;
+}
+
+.box{
+    width: 250px;
+    margin: auto;
+}
