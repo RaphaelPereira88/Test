@@ -1,10 +1,10 @@
-const numbers =101;
+const numbers = 101;
 const numberList = document.getElementById('listNumber')
 const button = document.getElementById('button')
 
 button.addEventListener("click", ()=>{;
     event.preventDefault
-    for (i = 1; i < numbers; i++){
+    for (let i = 1; i < numbers; i++){
         const liElement = document.createElement('li')
         liElement.style.setProperty('cursor', 'pointer');
         if (i % 3 === 0) {
